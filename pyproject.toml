@@ -1,16 +1,13 @@
 [tool.poetry]
-name = "py-rename"
+name = "pyrename"
 version = "0.1.0"
 description = "A simple CLI tool for renaming images to their SHA-1 checksum."
 authors = ["pymk <payamase@gmail.com>"]
 readme = "README.md"
-repository = "https://github.com/pymk/py-rename"
+repository = "https://github.com/pymk/pyrename"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-
-[tool.poetry]
-exclude = [".gitignore"]
 
 [build-system]
 requires = ["poetry-core"]
