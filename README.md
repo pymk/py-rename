@@ -1,4 +1,4 @@
-# py-rename
+# pyrename
 
 A simple CLI tool for renaming images to their SHA-1 checksum.
 
@@ -10,13 +10,13 @@ A simple CLI tool for renaming images to their SHA-1 checksum.
 ## Usage
 
 ```sh
-poetry run py-rename /path/to/your/image/directory
+poetry run pyrename /path/to/your/image/directory
 ```
 
 ## Example
 
 ```
-> poetry run py-rename ~/Pictures/Wallpapers
+> poetry run pyrename ~/Pictures/Wallpapers
 
 ```
 
